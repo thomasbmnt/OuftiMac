@@ -349,22 +349,15 @@ header h1 a img
 
 nav 
 {
-	position: relative;
 	min-width: 900px;
 	max-width: 1200px;
 	width: 80%;
 	margin: auto;
-	z-index: 20;
 	background: url("../images/bg.png") repeat;
 	padding: 5px 0px;
 	-webkit-border-radius: 0px 0px 3px 3px;
 	border-radius: 0px 0px 3px 3px;
 	text-align: center;
-/*
-	-moz-box-shadow:   0 0 10px #000000;
-   -webkit-box-shadow: 0 0 10px #000000;
-   box-shadow:          0 0 10px #000000;
-*/
 }
 
 nav a
@@ -390,12 +383,34 @@ li.current a
 
 #slider
 {
-	position: relative;
 	clear: both;
-	min-height: 380px;
+	background : url("../images/slider2.jpg") no-repeat center;
+	background-size: cover;
 	top: 30px;
+	height: 350px;
 }
 
+#sliderPresentation
+{
+	margin-top: 30px;
+	height: 250px;
+	background: rgba(0, 0, 0, .29);
+	color: white;
+}
+
+#sliderPresentation h2
+{
+	font-weight: bold;
+	font-size: 48px;
+	padding-top: 90px;
+}
+
+#sliderPresentation p
+{
+	font-size: 24px;
+}
+
+/*
 #slider img
 {
 	min-width: 900px;
@@ -407,6 +422,7 @@ li.current a
 	top: 0;
 	left: 0;
 }
+*/
 
 
 #prochaineReunion
@@ -455,9 +471,9 @@ li.current a
 
 #lastNews
 {
-	width: 30%;
+	width: 31%;
 	display: inline-block;
-	padding: 10px 10px 10px 0px;
+	padding: .5em .5em .5em 0;
 	border-right: 1px solid rgba(0, 0, 0, .29);
 	-webkit-box-shadow: 1px 0px 1px rgba(255, 255, 255, 1);
 	-moz-box-shadow:    1px 0px 1px rgba(255, 255, 255, 1);
@@ -471,10 +487,10 @@ li.current a
 
 #presentationClub
 {
-	width: 60%;
+	width: 62%;
 	display: inline-block;
 	vertical-align: top;
-	padding: 10px;
+	padding: 0.5em;
 }
 
 #presentationClub h2, #lastNews h2
@@ -526,6 +542,11 @@ footer
 #lastNews a
 {
 	text-shadow: 1px 1px 0px rgba(255, 254, 176, 1);
+}
+
+#lastNews a:hover
+{
+	border-bottom: 1px solid rgba(255, 254, 176, 1);
 }
 
 .lastNewsFooter li
