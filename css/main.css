@@ -379,6 +379,7 @@ li.current a
 {
 	font-weight: bold;
 	color: rgb(161, 198, 93);
+	text-shadow: 1px 1px 0px rgba(255, 254, 176, 1);
 }
 
 #slider
@@ -546,7 +547,7 @@ footer
 
 #lastNews a:hover
 {
-	border-bottom: 1px solid rgba(255, 254, 176, 1);
+	border-bottom: 1px solid rgba(105, 172, 7, 1);
 }
 
 .lastNewsFooter li
